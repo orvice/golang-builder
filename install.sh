@@ -9,3 +9,6 @@ curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.s
 
 echo "Install golangci-lint"
 curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /usr/bin v1.42.0
+
+echo "Install go-junit-report"
+go get -u github.com/jstemmer/go-junit-report
