@@ -14,3 +14,16 @@ curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/insta
 
 echo "Install go-junit-report"
 go install github.com/jstemmer/go-junit-report@latest
+
+
+
+
+### Install buf
+# Substitute BIN for your bin directory.
+# Substitute VERSION for the current released version.
+BIN="/usr/local/bin" && \
+VERSION="1.4.0" && \
+  curl -sSL \
+    "https://github.com/bufbuild/buf/releases/download/v${VERSION}/buf-$(uname -s)-$(uname -m)" \
+    -o "${BIN}/buf" && \
+  chmod +x "${BIN}/buf"
