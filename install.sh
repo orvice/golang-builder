@@ -18,6 +18,24 @@ go install github.com/jstemmer/go-junit-report@latest
 
 
 
+##  Install procto
+echo "Install protoc"
+apt install -y protobuf-compiler
+
+echo "Install protoc-gen-go"
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+echo "Install protoc-gen-go-grpc"
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
+
+echo "Install protoc-gen-doc"
+go install github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@v1.5.0
+
+echo "Install protoc-gen-gofast"
+go install github.com/gogo/protobuf/protoc-gen-gofast@v1.3.2
+go install github.com/gogo/protobuf/protoc-gen-gogo@v1.3.2
+
+
+
 ### Install buf
 # Substitute BIN for your bin directory.
 # Substitute VERSION for the current released version.
