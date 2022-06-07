@@ -35,6 +35,7 @@ go install github.com/gogo/protobuf/protoc-gen-gofast@v1.3.2
 go install github.com/gogo/protobuf/protoc-gen-gogo@v1.3.2
 
 
+go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
 
 ### Install buf
 # Substitute BIN for your bin directory.
