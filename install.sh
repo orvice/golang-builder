@@ -37,6 +37,8 @@ go install github.com/gogo/protobuf/protoc-gen-gogo@v1.3.2
 
 go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
 
+go install github.com/apptreesoftware/protoc-gen-twirp_dart@latest
+
 ### Install buf
 # Substitute BIN for your bin directory.
 # Substitute VERSION for the current released version.
