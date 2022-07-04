@@ -39,6 +39,8 @@ go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
 
 go install github.com/apptreesoftware/protoc-gen-twirp_dart@latest
 
+go install github.com/thechriswalker/protoc-gen-twirp_js@latest
+
 ### Install buf
 # Substitute BIN for your bin directory.
 # Substitute VERSION for the current released version.
