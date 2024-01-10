@@ -30,6 +30,13 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
 echo "Install protoc-gen-doc"
 go install github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@v1.5.0
 
+
+echo "install protoc-gen-connect-go"
+go install github.com/bufbuild/buf/cmd/buf@latest
+go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install connectrpc.com/connect/cmd/protoc-gen-connect-go@latest
+
 echo "Install protoc-gen-gofast"
 go install github.com/gogo/protobuf/protoc-gen-gofast@v1.3.2
 go install github.com/gogo/protobuf/protoc-gen-gogo@v1.3.2
